@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body {
+    background: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+#content {
+    background-color: white;
+    width: 23rem;
+    padding: 14px;
+    border-radius: 1em;
+    border: 2px solid black;
+    box-shadow: 8px 3px black;
+}
+
+#image {
+    border-radius: 1em;
+}
+
+#title, #learning, #author {
+    font-weight: 800;
+}
+
+#date {
+    font-weight: 500;
+}
+
+#title {
+    color: hsl(0, 0%, 7%);
+    padding-top: 1rem;
+    font-size: 12px;
+}
+
+#statement {
+    color: hsl(0, 0%, 42%);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#learning {
+    background-color: hsl(47, 88%, 63%);
+    width: 6rem;
+    padding: 0.4rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#author {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#photo {
+    width: 2.5rem;
+}
+
+#authName {
+    margin: 0;
+    padding-top: .5rem;
+    padding-left: .5rem;
+}
+
+.attribution {
+    position: relative;
+    top: 115px;
+}
